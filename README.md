@@ -1,5 +1,5 @@
 
-<Abstract>  (1) : Corona_virus
+# Abstract  (1) : Corona_virus
 
 In December 2019, identification of a novel coronavirus was declared as the main cause for viral pneumonia in Wuhan,China. 
 The novel virus is known as 2019-nCov Up till the moment, It is not certain which animal was the main cause for intiating the outbreak 
@@ -13,9 +13,9 @@ at Wuhan market. However, There are few suspects that bats are the main host. Mo
 4- Selecting the reads that made secondary alignment 
 5- Calculate the GC content and quality scores of such reads 
 
-Setting Environment
+## Setting Environment
 
-sudo apt-get install sra-toolkit
+'sudo apt-get install sra-toolkit'
 
 the past code didnt install , so used 
  sudo apt install sra-toolkit
