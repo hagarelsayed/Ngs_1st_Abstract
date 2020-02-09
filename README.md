@@ -32,8 +32,10 @@ conda activate ngs1
 
 
 
+The following is test
+# **First Trial**
+## Setting Environment
 
+`sudo apt-get install sra-toolkit`
 
-
-
-Data Retrieval 
+The past code did not install toolkit , so used
