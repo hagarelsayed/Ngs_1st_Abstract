@@ -82,8 +82,9 @@ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM5
 ```
 sudo apt install seqtk
 seqtk - c.f
-```
 # this didn't actually subset the data but it was discovered later on 
+```
+
 ` seqtk sample -s100 SRR10903402_pass_1.fastq.gz 5000000 > sub1.fq
  seqtk sample -s100 SRR10903402_pass_2.fastq.gz 5000000 > sub2.fq
 `
