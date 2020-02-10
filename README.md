@@ -104,7 +104,42 @@ both interactive and non interactive code was used to check the quality of the s
 for f in ~/home/nu/ngs_proj/fastq/*.fq.gz;
 do fastqc -t 1 -f fastq -noextract $f;done
 ```
-## The results of fastq to be added
+
+# Results of Fastqc Quality Control Checks:
+SRR10903402_pass_1_fastqc:
+Summary statistics:
+[fastqc_data.txt](https://github.com/hagarelsayed/Ngs_1st_Abstract/files/4177094/fastqc_data.txt)
+[summary.txt](https://github.com/hagarelsayed/Ngs_1st_Abstract/files/4177095/summary.txt)
+![1](https://user-images.githubusercontent.com/60422836/74104910-1a661f80-4b62-11ea-88a9-487f61f54551.png)
+
+Quality per base 
+![per_base_quality](https://user-images.githubusercontent.com/60422836/74104888-e428a000-4b61-11ea-8746-dab1e9f0d5c8.png)
+
+![adapter_content](https://user-images.githubusercontent.com/60422836/74104938-4a152780-4b62-11ea-8a6e-ebbd82485bb8.png)
+![duplication_levels](https://user-images.githubusercontent.com/60422836/74104940-4b465480-4b62-11ea-8b81-adc3989aa857.png)
+![per_base_n_content](https://user-images.githubusercontent.com/60422836/74104942-4b465480-4b62-11ea-91c3-3c53046dee22.png)
+![per_base_sequence_content](https://user-images.githubusercontent.com/60422836/74104943-4bdeeb00-4b62-11ea-9eac-33047cd3e0fb.png)
+![per_sequence_gc_content](https://user-images.githubusercontent.com/60422836/74104944-4bdeeb00-4b62-11ea-9810-d38bb3aa57a6.png)
+![per_sequence_quality](https://user-images.githubusercontent.com/60422836/74104945-4c778180-4b62-11ea-895d-23150bdc20df.png)
+![sequence_length_distribution](https://user-images.githubusercontent.com/60422836/74104946-4d101800-4b62-11ea-8aa9-b5b25a9e5142.png)
+
+
+## Quality for SRR10903402_R2
+[fastqc_data.txt](https://github.com/hagarelsayed/Ngs_1st_Abstract/files/4177107/fastqc_data.txt)
+[summary.txt](https://github.com/hagarelsayed/Ngs_1st_Abstract/files/4177109/summary.txt)
+![2](https://user-images.githubusercontent.com/60422836/74105012-d4f62200-4b62-11ea-95b5-9cad179c2da9.png)
+
+![per_base_quality](https://user-images.githubusercontent.com/60422836/74104958-5ef1bb00-4b62-11ea-9d5e-158faf233c19.png)
+
+
+![duplication_levels](https://user-images.githubusercontent.com/60422836/74104968-6c0eaa00-4b62-11ea-9f6d-d65986b2a6a7.png)
+![per_base_n_content](https://user-images.githubusercontent.com/60422836/74104969-6ca74080-4b62-11ea-88b9-5153fc25427e.png)
+![per_base_sequence_content](https://user-images.githubusercontent.com/60422836/74104970-6d3fd700-4b62-11ea-947a-6f385cdee6a3.png)
+![per_sequence_gc_content](https://user-images.githubusercontent.com/60422836/74104971-6dd86d80-4b62-11ea-8ea4-a5dc96010ee7.png)
+![per_sequence_quality](https://user-images.githubusercontent.com/60422836/74104972-6dd86d80-4b62-11ea-8241-734085440e7e.png)
+![sequence_length_distribution](https://user-images.githubusercontent.com/60422836/74104973-6e710400-4b62-11ea-8a6e-8cf2bc0478d7.png)
+![adapter_content](https://user-images.githubusercontent.com/60422836/74104974-6f099a80-4b62-11ea-854f-5f14a7143858.png)
+
 
 Indexing:
 I don't remember the problem here but there was a problem in the sam file (plz check from terminal)
@@ -185,9 +220,42 @@ emacs fastq_screen.conf
 
 ```
 
-# Results s and resulted sam and bam and alignment report 
 
-Alignment rate was very low around 3.5% eventhough the quality of the reads showed a quite good quality
+## Resulted Hisat2 files
+
+```
+587809 reads; of these:
+  587809 (100.00%) were paired; of these:
+    549354 (93.46%) aligned concordantly 0 times
+    38455 (6.54%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    549354 pairs aligned concordantly 0 times; of these:
+      6887 (1.25%) aligned discordantly 1 time
+    ----
+    542467 pairs aligned 0 times concordantly or discordantly; of these:
+      1084934 mates make up the pairs; of these:
+        1080225 (99.57%) aligned 0 times
+        4709 (0.43%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+8.11% overall alignment rate
+```
+
+
+
+
+
+
+Sam Files were too large to be uploaded, around 1.2 GigaBytes
+
+Indexed files by Hisat shared through this link 
+https://drive.google.com/open?id=1gju43gCz_tDB6vskA--JMUhBso0_4nLj
+
+
+
+## N.B.
+The work was stopped here at Feb 6, 7 pm as Dr Tamer approved the other abstract to work on and approved Sara to join me and work as a team in the other abstract. 
+
 
 
 
